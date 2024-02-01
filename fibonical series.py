@@ -1,0 +1,11 @@
+a = int(input("enter the value"))
+x1 = 0
+x2 = 1
+print("the series", x1, end=",")
+print(x2, end=",")
+i = 0
+while (i <= a):
+    s = x1 + x2
+    x1 = x2
+    x2 = s
+    print(s,end=",")
